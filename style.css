@@ -1,0 +1,95 @@
+*{
+    padding-left: 5px;
+    margin:10px;
+}
+
+.firstnavbar{
+ display:flex;
+ gap:5px;
+ justify-content: space-around;
+ margin:5px;
+ position:sticky;
+}
+
+#Searchbar{
+    display:flex;
+    width:500px;
+    height:30px;
+    border:Solid 1px rgb(223, 217, 217);
+    border-radius: 25px;
+    align-items: center;
+}
+
+.price{
+    background-color: green;
+    border:none;
+    color:white;
+    padding:5px 10px;
+    border-radius: 10px;
+}
+
+.header{
+    display:flex;
+    align-items: flex-start;
+    gap:25px;
+    height:40px;
+    align-items: center;
+    position:sticky;
+}
+
+.smoke{
+    display:flex;
+    flex-direction: column;
+    height:200px;
+    background-color: rgb(209, 200, 209);
+    border-radius: 25px;
+    justify-content: center;
+}
+
+.Delivery{
+    display:flex;
+    flex-direction: column;
+    height:300px;
+    background-color: rgb(209, 200, 209);
+    border-radius: 25px;
+    justify-content: center;
+}  
+
+.rupee{
+    display:flex;
+    justify-content: space-around;
+    text-align: center;
+    margin:2px;
+    
+}
+
+.list{
+   display:flex;
+   list-style: none;
+   justify-content: center;
+
+}
+
+.items{
+    display:flex;
+    overflow-x: auto;
+    gap:20px;
+    padding:20px;
+}
+
+.vegetables{
+    text-align: center;
+    width:150px;
+}
+
+.vegetables img{
+    width: 150px;
+    height:150px;
+    border-radius:10px;
+}
+
+.h3{
+    margin-top: 8px;
+    font-size:18px;
+    color:blueviolet;
+}
